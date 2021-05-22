@@ -1,0 +1,20 @@
+{
+  "name": "r7-article-tailwindcss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": "true",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bulnes/r7-article-tailwindcss.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bulnes/r7-article-tailwindcss/issues"
+  },
+  "homepage": "https://github.com/bulnes/r7-article-tailwindcss#readme"
+}
