@@ -4,9 +4,6 @@
   "description": "",
   "main": "index.js",
   "private": "true",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bulnes/r7-article-tailwindcss.git"
@@ -17,9 +14,19 @@
     "url": "https://github.com/bulnes/r7-article-tailwindcss/issues"
   },
   "homepage": "https://github.com/bulnes/r7-article-tailwindcss#readme",
-  "devDependencies": {
-    "autoprefixer": "^10.2.5",
-    "postcss": "^8.3.0",
+  "scripts": {
+    "clean": "rm dist/bundle.js",
+    "start": "snowpack dev",
+    "build": "snowpack build"
+  },
+  "dependencies": {
     "tailwindcss": "^2.1.2"
+  },
+  "devDependencies": {
+    "snowpack": "^3.5.1",
+    "postcss-cli": "^8.3.1",
+    "postcss": "^8.3.0",
+    "autoprefixer": "^10.2.5",
+    "@snowpack/plugin-build-script": "^2.1.0"
   }
 }
